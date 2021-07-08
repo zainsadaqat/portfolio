@@ -7,7 +7,6 @@
 }
 
 body {
-  font-family: poppins;
   background-color: #f7f7f9;
 }
 
@@ -37,7 +36,6 @@ body {
 }
 
 .hero-heading {
-  font-family: poppins;
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
@@ -48,7 +46,6 @@ body {
 }
 
 .hero-paragraph {
-  font-family: poppins;
   font-weight: 400;
   font-size: 16px;
   color: #344563;
@@ -62,7 +59,6 @@ body {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
-  font-family: poppins;
   color: #7f8cff;
   padding: 0 24px;
   margin-bottom: 12px;

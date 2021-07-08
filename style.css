@@ -4,6 +4,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -68,6 +70,7 @@ body {
   padding: 0 24px;
 }
 
-.hero-social-media > img {
+.hero-social-media > li {
   margin-right: 19px;
+  display: inline-block;
 }

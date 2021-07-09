@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f7f7f9;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 24px;
+}
+
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-color: white;
+  background-image: url("/images/hero-background-image.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  border: none;
+  border-bottom-left-radius: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-heading {
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+  line-height: 52px;
+  max-width: 280px;
+  padding: 0 24px;
+  margin-bottom: 12px;
+}
+
+.hero-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+  line-height: 24px;
+  max-width: 370px;
+  padding: 0 24px;
+  margin-bottom: 12px;
+}
+
+.hero-caption {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: #7f8cff;
+  padding: 0 24px;
+  margin-bottom: 12px;
+}
+
+.hero-social-media {
+  padding: 0 24px;
+}
+
+.hero-social-media > li {
+  margin-right: 19px;
+  display: inline-block;
+}

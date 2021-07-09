@@ -109,6 +109,11 @@ body {
   margin-bottom: 12px;
 }
 
+.work-card-image > img {
+  width: 295px;
+  height: 220px;
+}
+
 .work-card-heading {
   color: #172b4d;
   font-weight: 700;

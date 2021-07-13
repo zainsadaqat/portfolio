@@ -120,6 +120,10 @@ body {
   vertical-align: top;
   padding: 15px;
   margin-bottom: 22px;
+  color: #b3bac5;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .contact-button {

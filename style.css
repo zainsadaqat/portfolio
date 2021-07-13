@@ -46,8 +46,25 @@ body {
   min-height: 70vh;
 }
 
+.contact-section {
+  border-top-right-radius: 0;
+  border-top-left-radius: 15%;
+  min-height: 70vh;
+  background-color: #6070ff;
+  background-image: url("/images/hero-background-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
 .hero-heading,
-.about-heading {
+.about-heading,
+.contact-heading {
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
@@ -57,8 +74,15 @@ body {
   margin-bottom: 12px;
 }
 
+.contact-heading {
+  color: white;
+  max-width: 100%;
+  margin-top: 100px;
+}
+
 .hero-paragraph,
-.about-paragraph {
+.about-paragraph,
+.contact-paragraph {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
@@ -66,6 +90,49 @@ body {
   max-width: 370px;
   padding: 0 24px;
   margin-bottom: 12px;
+}
+
+.contact-paragraph {
+  font-size: 20px;
+  text-align: center;
+  color: #ebebff;
+  line-height: 28px;
+  margin-bottom: 60px;
+}
+
+.input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 327px;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: #172b4d;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.input-textarea {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 327px;
+  height: 170px;
+  vertical-align: top;
+  padding: 15px;
+  margin-bottom: 22px;
+}
+
+.contact-button {
+  padding: 12px 16px;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 32px;
 }
 
 .hero-caption,

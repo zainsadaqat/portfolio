@@ -104,10 +104,10 @@ body {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 327px;
-  padding: 15px;
+  padding: 15px 16px;
   margin-bottom: 20px;
   color: #172b4d;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 17px;
   line-height: 20px;
 }
@@ -118,7 +118,7 @@ body {
   width: 327px;
   height: 170px;
   vertical-align: top;
-  padding: 15px;
+  padding: 15px 16px;
   margin-bottom: 22px;
   color: #b3bac5;
   font-weight: 400;

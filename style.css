@@ -139,6 +139,21 @@ body {
   margin-bottom: 32px;
 }
 
+.contact-button:hover,
+.contact-button:visited {
+  background-color: #6070ff;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  box-shadow: 0 8px 16px #4053fc;
+}
+
+.contact-button:visited {
+  background-color: #2230d2;
+}
+
 .hero-caption,
 .about-caption {
   text-transform: uppercase;

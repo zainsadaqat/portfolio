@@ -14,13 +14,31 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header">
-      <img src="/images/logo.svg" alt="Logo" />
-      <img src="/images/menu-icon.svg" alt="Menu Icon" />
+    <header class="bg-white">
+      <!-- Mobile Version -->
+      <nav class="mobile-header">
+        <ul class="mobile-header-items">
+          <li><img src="/images/logo.svg" alt="Logo" /></li>
+          <li><img src="/images/menu-icon.svg" alt="Menu Icon" /></li>
+        </ul>
+      </nav>
+      <!-- Desktop Version -->
+      <nav class="container desktop-header">
+        <img src="/images/logo.svg" alt="Logo" />
+        <ul class="desktop-header-items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main class="hero-section">
-      <section>
-        <h2 class="hero-heading">I'm Zain Glad to see you!</h2>
+      <section class="hero-container">
+        <h2 class="hero-heading">
+          I'm Zain <br />
+          Glad to see you!
+        </h2>
         <p class="hero-paragraph">
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what

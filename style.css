@@ -11,17 +11,23 @@ body {
   font-family: poppins, sans-serif;
 }
 
-.header {
+.bg-white {
   background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+
+.mobile-header {
+  background-color: white;
   padding: 26px 24px;
 }
 
-.container {
-  max-width: 1050px;
-  margin: 0 auto;
+.mobile-header-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desktop-header {
+  display: none;
 }
 
 .hero-section,
@@ -30,6 +36,7 @@ body {
   background-image: url("/images/hero-background-image.svg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
   min-height: 90vh;
   border: none;
   border-bottom-left-radius: 15%;
@@ -323,4 +330,77 @@ body {
   color: #253858;
   font-size: 15px;
   margin-left: 16px;
+}
+
+@media (min-width: 762px) {
+  .mobile-header {
+    display: none;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .desktop-header {
+    background-color: white;
+    padding: 26px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .desktop-header-items {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-header-items > li > a {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 32px;
+    color: #344563;
+  }
+
+  .hero-section {
+    background-image: url(/images/desktop-background.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-heading {
+    max-width: 380px;
+  }
+
+  .hero-paragraph {
+    max-width: 780px;
+  }
+
+  .work-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .work-card > * {
+    flex: 1 1 50%;
+    padding: 8px 10px;
+  }
+
+  .work-card:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+
+  .work-card-image > img {
+    width: 100%;
+    height: 100%;
+  }
 }

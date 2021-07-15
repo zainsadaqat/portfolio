@@ -33,7 +33,7 @@ body {
 .hero-section,
 .about-section {
   background-color: white;
-  background-image: url("/images/hero-background-image.svg");
+  background-image: url("./images/hero-background-image.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -58,7 +58,7 @@ body {
   border-top-left-radius: 15%;
   min-height: 70vh;
   background-color: #6070ff;
-  background-image: url("/images/hero-background-image.svg");
+  background-image: url("./images/hero-background-image.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -367,7 +367,7 @@ body {
   }
 
   .hero-section {
-    background-image: url(/images/desktop-background.svg);
+    background-image: url(./images/desktop-background.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -439,7 +439,7 @@ body {
   }
 
   .contact-section {
-    background-image: url(/images/desktop-footer-background.svg);
+    background-image: url(./images/desktop-footer-background.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

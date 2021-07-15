@@ -14,13 +14,31 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header">
-      <img src="/images/logo.svg" alt="Logo" />
-      <img src="/images/menu-icon.svg" alt="Menu Icon" />
+    <header class="bg-white">
+      <!-- Mobile Version -->
+      <nav class="mobile-header">
+        <ul class="mobile-header-items">
+          <li><img src="./images/logo.svg" alt="Logo" /></li>
+          <li><img src="./images/menu-icon.svg" alt="Menu Icon" /></li>
+        </ul>
+      </nav>
+      <!-- Desktop Version -->
+      <nav class="container desktop-header">
+        <img src="./images/logo.svg" alt="Logo" />
+        <ul class="desktop-header-items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main class="hero-section">
-      <section>
-        <h2 class="hero-heading">I'm Zain Glad to see you!</h2>
+      <section class="hero-container">
+        <h2 class="hero-heading">
+          I'm Zain <br />
+          Glad to see you!
+        </h2>
         <p class="hero-paragraph">
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
@@ -31,40 +49,40 @@
         <div>
           <ul class="hero-social-media">
             <li>
-              <a href="#"><img src="/images/Twitter.svg" alt="Twitter" /></a>
+              <a href="#"><img src="./images/Twitter.svg" alt="Twitter" /></a>
             </li>
             <li>
               <a href="#"
-                ><img src="/images/LinkedIn-Icon.svg" alt="LinkedIn"
+                ><img src="./images/LinkedIn-Icon.svg" alt="LinkedIn"
               /></a>
             </li>
             <li>
-              <a href="#"><img src="/images/Medium.svg" alt="Medium" /></a>
+              <a href="#"><img src="./images/Medium.svg" alt="Medium" /></a>
             </li>
             <li>
-              <a href="#"><img src="/images/Github.svg" alt="Github" /></a>
+              <a href="#"><img src="./images/Github.svg" alt="Github" /></a>
             </li>
             <li>
-              <img src="/images/Victory.svg" alt="Victory" />
+              <img src="./images/Victory.svg" alt="Victory" />
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <section class="grid-container">
+    <section class="container grid-container">
       <ul class="work-card">
         <li class="work-card-image">
-          <img src="/images/portfolio-1.png" alt="portfolio-1" />
+          <img src="./images/portfolio-1.png" alt="portfolio-1" />
         </li>
         <li class="work-card-content">
           <h2 class="work-card-heading">Tonic</h2>
           <section class="work-card-history">
             <ul class="work-card-profession">
               <li><h3 class="work-card-caption">CANOPY</h3></li>
-              <li><img src="/images/counter.svg" alt="circle" /></li>
+              <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>Back End Dev</li>
-              <li><img src="/images/counter.svg" alt="circle" /></li>
+              <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>2015</li>
             </ul>
           </section>
@@ -83,16 +101,16 @@
 
       <ul class="work-card">
         <li class="work-card-image">
-          <img src="/images/portfolio-2.png" alt="portfolio-2" />
+          <img src="./images/portfolio-2.png" alt="portfolio-2" />
         </li>
         <li class="work-card-content">
           <h2 class="work-card-heading">Multi-Post Stories</h2>
           <section class="work-card-history">
             <ul class="work-card-profession">
               <li><h3 class="work-card-caption">CANOPY</h3></li>
-              <li><img src="/images/counter.svg" alt="circle" /></li>
+              <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>Back End Dev</li>
-              <li><img src="/images/counter.svg" alt="circle" /></li>
+              <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>2015</li>
             </ul>
           </section>
@@ -111,16 +129,16 @@
 
       <ul class="work-card">
         <li class="work-card-image">
-          <img src="/images/portfolio-3.png" alt="portfolio-3" />
+          <img src="./images/portfolio-3.png" alt="portfolio-3" />
         </li>
         <li class="work-card-content">
-          <h2 class="work-card-heading">Tonic</h2>
+          <h2 class="work-card-heading">Facebook 360</h2>
           <section class="work-card-history">
             <ul class="work-card-profession">
               <li><h3 class="work-card-caption">CANOPY</h3></li>
-              <li><img src="/images/counter.svg" alt="circle" /></li>
+              <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>Back End Dev</li>
-              <li><img src="/images/counter.svg" alt="circle" /></li>
+              <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>2015</li>
             </ul>
           </section>
@@ -139,16 +157,16 @@
 
       <ul class="work-card">
         <li class="work-card-image">
-          <img src="/images/portfolio-4.png" alt="portfolio-4" />
+          <img src="./images/portfolio-4.png" alt="portfolio-4" />
         </li>
         <li class="work-card-content">
-          <h2 class="work-card-heading">Multi-Post Stories</h2>
+          <h2 class="work-card-heading">Uber Navigation</h2>
           <section class="work-card-history">
             <ul class="work-card-profession">
               <li><h3 class="work-card-caption">CANOPY</h3></li>
-              <li><img src="/images/counter.svg" alt="circle" /></li>
+              <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>Back End Dev</li>
-              <li><img src="/images/counter.svg" alt="circle" /></li>
+              <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>2015</li>
             </ul>
           </section>
@@ -166,70 +184,78 @@
       </ul>
     </section>
 
-    <section class="about-section">
-      <div>
-        <h1 class="about-heading">About Myself</h1>
-        <p class="about-paragraph">
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <h3 class="about-caption">Let's Connect</h3>
-        <div>
-          <ul class="about-social-media">
-            <li>
-              <a href="#"><img src="/images/Twitter.svg" alt="Twitter" /></a>
+    <section class="bg-white">
+      <ul class="container about-container">
+        <li class="about-section">
+          <div>
+            <h1 class="about-heading">About Myself</h1>
+            <p class="about-paragraph">
+              I’m a software developer! I can help you build a product , feature
+              or website Look through some of my work and experience! If you
+              like what you see and have a project you need coded, don’t
+              hestiate to contact me.
+            </p>
+            <h3 class="about-caption">Let's Connect</h3>
+            <div>
+              <ul class="about-social-media">
+                <li>
+                  <a href="#"
+                    ><img src="./images/Twitter.svg" alt="Twitter"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./images/LinkedIn-Icon.svg" alt="LinkedIn"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./images/Medium.svg" alt="Medium" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./images/Github.svg" alt="Github" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./images/Victory.svg" alt="Victory"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="about-card-button">Get my resume</a>
+          </div>
+        </li>
+
+        <li class="proficiency-section">
+          <ul class="languages">
+            <li><h2 class="languages-heading">Languages</h2></li>
+            <li><img src="./images/Union-0.svg" alt="" /></li>
+          </ul>
+          <ul class="languages-container">
+            <li class="languages-info">
+              <img src="./images/javascript-logo.svg" alt="Javascript logo" />
+              <h3 class="language-name">Javascript</h3>
             </li>
-            <li>
-              <a href="#"
-                ><img src="/images/LinkedIn-Icon.svg" alt="LinkedIn"
-              /></a>
+            <li class="languages-info">
+              <img src="./images/html-logo.svg" alt="HTML logo" />
+              <h3 class="language-name">HTML</h3>
             </li>
-            <li>
-              <a href="#"><img src="/images/Medium.svg" alt="Medium" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="/images/Github.svg" alt="Github" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="/images/Victory.svg" alt="Victory" /></a>
+            <li class="languages-info">
+              <img src="./images/css-logo.svg" alt="CSS logo" />
+              <h3 class="language-name">CSS</h3>
             </li>
           </ul>
-        </div>
-        <a href="#" class="about-card-button">Get my resume</a>
-      </div>
-    </section>
-
-    <section class="proficiency-section">
-      <ul class="languages">
-        <li><h2 class="languages-heading">Languages</h2></li>
-        <li><img src="/images/Union-0.svg" alt="" /></li>
-      </ul>
-      <ul class="languages-container">
-        <li class="languages-info">
-          <img src="/images/javascript-logo.svg" alt="Javascript logo" />
-          <h3 class="language-name">Javascript</h3>
-        </li>
-        <li class="languages-info">
-          <img src="/images/html-logo.svg" alt="HTML logo" />
-          <h3 class="language-name">HTML</h3>
-        </li>
-        <li class="languages-info">
-          <img src="/images/css-logo.svg" alt="CSS logo" />
-          <h3 class="language-name">CSS</h3>
+          <ul class="frameworks">
+            <li><h2 class="frameworks-heading">Frameworks</h2></li>
+            <li><img src="./images/Union-1.svg" alt="" /></li>
+          </ul>
+          <div class="hr"></div>
+          <ul class="skills">
+            <li><h2 class="skills-heading">Skills</h2></li>
+            <li><img src="./images/Union-1.svg" alt="" /></li>
+          </ul>
+          <div class="hr"></div>
         </li>
       </ul>
-      <ul class="frameworks">
-        <li><h2 class="frameworks-heading">Frameworks</h2></li>
-        <li><img src="/images/Union-1.svg" alt="" /></li>
-      </ul>
-      <div class="hr"></div>
-      <ul class="skills">
-        <li><h2 class="skills-heading">Skills</h2></li>
-        <li><img src="/images/Union-1.svg" alt="" /></li>
-      </ul>
-      <div class="hr"></div>
     </section>
 
     <footer class="contact-section">

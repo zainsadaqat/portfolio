@@ -437,4 +437,16 @@ body {
   .hr {
     width: 100%;
   }
+
+  .contact-section {
+    background-image: url(/images/desktop-footer-background.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+  }
+
+  .contact-paragraph {
+    max-width: 580px;
+  }
 }

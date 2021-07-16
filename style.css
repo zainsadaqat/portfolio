@@ -44,6 +44,7 @@ body {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -170,7 +171,7 @@ body {
 .contact-button:visited {
   background-color: #6070ff;
   color: white;
-  box-shadow: 0px 8px 16px 0px #4053fc3d;
+  box-shadow: 0 8px 16px 0 #4053fc3d;
 }
 
 .contact-button:visited {
@@ -302,14 +303,14 @@ body {
   transition: background-color 500ms, color 500ms;
 }
 
+.about-card-button {
+  margin-left: 20px;
+}
+
 .work-card-button:hover,
 .about-card-button:hover {
   background-color: #6070ff;
   color: white;
-}
-
-.about-card-button {
-  margin-left: 20px;
 }
 
 .proficiency-section {

@@ -30,6 +30,25 @@ body {
   display: none;
 }
 
+.sticky-top {
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  transition: transform 500ms;
+  animation: rotate-logo 1s cubic-bezier(0.18, -0.51, 0.7, 1.75);
+}
+
+@keyframes rotate-logo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .hero-section,
 .about-section {
   background-color: white;
@@ -144,17 +163,14 @@ body {
   border-radius: 8px;
   border: none;
   margin-bottom: 32px;
+  transition: background-color 600ms;
 }
 
 .contact-button:hover,
 .contact-button:visited {
   background-color: #6070ff;
   color: white;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  box-shadow: 0 8px 16px #4053fc;
+  box-shadow: 0px 8px 16px 0px #4053fc3d;
 }
 
 .contact-button:visited {
@@ -205,6 +221,14 @@ body {
 .work-card-image > img {
   width: 295px;
   height: 220px;
+}
+
+.work-card-image {
+  transition: transform 600ms cubic-bezier(0.18, -0.51, 0.7, 1.75);
+}
+
+.work-card-image:hover {
+  transform: scale(0.95);
 }
 
 .work-card-heading {
@@ -275,6 +299,13 @@ body {
   padding: 12px;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  transition: background-color 500ms, color 500ms;
+}
+
+.work-card-button:hover,
+.about-card-button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 .about-card-button {

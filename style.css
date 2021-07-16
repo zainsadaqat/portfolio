@@ -217,15 +217,12 @@ body {
 
 .work-card-image {
   margin-bottom: 12px;
+  transition: transform 600ms cubic-bezier(0.18, -0.51, 0.7, 1.75);
 }
 
 .work-card-image > img {
   width: 295px;
   height: 220px;
-}
-
-.work-card-image {
-  transition: transform 600ms cubic-bezier(0.18, -0.51, 0.7, 1.75);
 }
 
 .work-card-image:hover {

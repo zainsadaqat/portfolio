@@ -36,6 +36,10 @@
 ### Prerequisites
 
 - You need a code editor ( VS Code Recommended ) and git installed on your machine.
+- In case if you don't have installed VS Code then you can download it from the link given below:
+  - https://code.visualstudio.com/download
+- In case if you don't have installed Git then you can download it from the link given below:
+  - https://git-scm.com/downloads
 
 ### Setup
 

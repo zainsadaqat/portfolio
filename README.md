@@ -2,13 +2,17 @@
 
 # Portfolio
 
-> Hey, My name is Zain, Glad to see you. This is my Portfolio Website.
+> Hey, My name is Zain, Thanks for checking out my Portfolio.
+
+## Desktop View
 
 ![screenshot](images/portfolios-desktop-view.png)
 
+## Mobile View
+
 ![screenshot](images/portfolios-mobile-view.png)
 
-Additional description about the project and its features.
+> Additional description about the project and its features.
 
 ## Built With
 
@@ -28,7 +32,7 @@ Additional description about the project and its features.
 
 ### Prerequisites
 
-- You need a code editor ( _ VS Code Recommended _ ) and git installed on your machine.
+- You need a code editor ( VS Code Recommended ) and git installed on your machine.
 
 ### Setup
 
@@ -37,7 +41,7 @@ Additional description about the project and its features.
 - Go to Terminal and type "git clone paste-the-repository-link-that-you-copied"
   ![screenshot](images/repository-usage-view.png)
 - cd project-name
-- run the index.html file in your favourite browser ( _ Google Chrome Recommended ;) _ )
+- run the index.html file in your favourite browser ( Google Chrome Recommended )
 
 ### Usage
 
@@ -49,10 +53,10 @@ Additional description about the project and its features.
 
 👤 **Zain Sadaqat**
 
-- GitHub: [@ZainSadaqat](https://github.com/zainsadaqat)
-- Twitter: [@ZainSadaqat](https://twitter.com/zain_sadaqat)
-- LinkedIn: [@ZainSadaqat](https://linkedin.com/in/zainsadaqat)
-- Instagram: [@ZainSadaqat](https://instagram.com/zain__sadaqat)
+- GitHub: [@zainsadaqat](https://github.com/zainsadaqat)
+- Twitter: [@zain_sadaqat](https://twitter.com/zain_sadaqat)
+- LinkedIn: [@zainsadaqat](https://linkedin.com/in/zainsadaqat)
+- Instagram: [@zain__sadaqat](https://instagram.com/zain__sadaqat)
 
 ## 🤝 Contributing
 

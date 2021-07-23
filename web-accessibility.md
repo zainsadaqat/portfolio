@@ -2,10 +2,10 @@
 
 - Listing all points that I have to check, i.e: \*
 
-* Page titles - no issues found
-* Image text alternatives\*\* (<img alt="alt text">) - no issues found
-* Text headings - no issues found
-* Color contrast - no issues found
+* Page titles - Fixed
+* Image text alternatives\*\* (<img alt="alt text">) - Fixed
+* Text headings - Fixed
+* Color contrast - Fixed
 * Resize - no issues found
 * Interaction - no issues found
 * Moving content - no issues found

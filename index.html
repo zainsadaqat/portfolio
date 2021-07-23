@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hello, This is Zain Sadaqat and thanks for checking my Portfolio. I studied BS Computer Science and now I'm Microverse Student"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +29,7 @@
 
       gtag("config", "G-Z1ELFWLXER");
     </script>
-    <title>Portfolio | Zain Sadaqat</title>
+    <title>Zain's Portfolio</title>
   </head>
   <body>
     <header class="bg-white sticky-top">
@@ -33,26 +37,28 @@
       <nav class="mobile-header">
         <ul class="mobile-header-items">
           <li class="logo"><img src="./images/logo.svg" alt="Logo" /></li>
-          <li><img src="./images/menu-icon.svg" alt="Menu Icon" /></li>
+          <li>
+            <img src="./images/menu-icon.svg" alt="Hamburger Menu Icon" />
+          </li>
         </ul>
       </nav>
       <!-- Desktop Version -->
       <nav class="container desktop-header">
         <img src="./images/logo.svg" alt="Logo" class="logo" />
         <ul class="desktop-header-items">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="hero-section">
+    <main id="home" class="hero-section">
       <section class="hero-container">
-        <h2 class="hero-heading">
+        <h1 class="hero-heading">
           I'm Zain <br />
           Glad to see you!
-        </h2>
+        </h1>
         <p class="hero-paragraph">
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
@@ -95,7 +101,7 @@
             <ul class="work-card-profession">
               <li><h3 class="work-card-caption">CANOPY</h3></li>
               <li><img src="./images/counter.svg" alt="circle" /></li>
-              <li>Back End Dev</li>
+              <li class="role">Back End Dev</li>
               <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>2015</li>
             </ul>
@@ -123,7 +129,7 @@
             <ul class="work-card-profession">
               <li><h3 class="work-card-caption">CANOPY</h3></li>
               <li><img src="./images/counter.svg" alt="circle" /></li>
-              <li>Back End Dev</li>
+              <li class="role">Back End Dev</li>
               <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>2015</li>
             </ul>
@@ -151,7 +157,7 @@
             <ul class="work-card-profession">
               <li><h3 class="work-card-caption">CANOPY</h3></li>
               <li><img src="./images/counter.svg" alt="circle" /></li>
-              <li>Back End Dev</li>
+              <li class="role">Back End Dev</li>
               <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>2015</li>
             </ul>
@@ -179,7 +185,7 @@
             <ul class="work-card-profession">
               <li><h3 class="work-card-caption">CANOPY</h3></li>
               <li><img src="./images/counter.svg" alt="circle" /></li>
-              <li>Back End Dev</li>
+              <li class="role">Back End Dev</li>
               <li><img src="./images/counter.svg" alt="circle" /></li>
               <li>2015</li>
             </ul>
@@ -198,11 +204,11 @@
       </ul>
     </section>
 
-    <section class="bg-white">
+    <section id="about" class="bg-white">
       <ul class="container about-container">
         <li class="about-section">
           <div>
-            <h1 class="about-heading">About Myself</h1>
+            <h2 class="about-heading">About Myself</h2>
             <p class="about-paragraph">
               I’m a software developer! I can help you build a product , feature
               or website Look through some of my work and experience! If you
@@ -242,7 +248,7 @@
         <li class="proficiency-section">
           <ul class="languages">
             <li><h2 class="languages-heading">Languages</h2></li>
-            <li><img src="./images/Union-0.svg" alt="" /></li>
+            <li><img src="./images/Union-0.svg" alt="Dropdown Icon" /></li>
           </ul>
           <ul class="languages-container">
             <li class="languages-info">
@@ -260,61 +266,52 @@
           </ul>
           <ul class="frameworks">
             <li><h2 class="frameworks-heading">Frameworks</h2></li>
-            <li><img src="./images/Union-1.svg" alt="" /></li>
+            <li><img src="./images/Union-1.svg" alt="right-arrow-1" /></li>
           </ul>
           <div class="hr"></div>
           <ul class="skills">
             <li><h2 class="skills-heading">Skills</h2></li>
-            <li><img src="./images/Union-1.svg" alt="" /></li>
+            <li><img src="./images/Union-1.svg" alt="right-arrow-2" /></li>
           </ul>
           <div class="hr"></div>
         </li>
       </ul>
     </section>
 
-    <footer class="contact-section">
+    <footer id="contact" class="contact-section">
       <h2 class="contact-heading">Contact me</h2>
       <p class="contact-paragraph">
         If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I’d love to help
         with it
       </p>
-      <form action="https://formspree.io/f/meqvlgqr" method="POST">
-        <ul>
-          <li>
-            <input
-              type="text"
-              name="name"
-              maxlength="30"
-              placeholder="Zain Sadaqat"
-              required
-              class="input"
-            />
-          </li>
-          <li>
-            <input
-              type="email"
-              name="email"
-              placeholder="zain.sadaqet@gmail.com"
-              required
-              class="input"
-            />
-          </li>
-          <li>
-            <textarea
-              rows="4"
-              cols="50"
-              name="message"
-              placeholder="Write your message here"
-              required
-              maxlength="500"
-              class="input-textarea"
-            ></textarea>
-          </li>
-          <li>
-            <button type="submit" class="contact-button">Get It Touch</button>
-          </li>
-        </ul>
+      <form class="form" action="https://formspree.io/f/meqvlgqr" method="POST">
+        <input
+          type="text"
+          name="name"
+          maxlength="30"
+          placeholder="Zain Sadaqat"
+          required
+          class="input"
+        />
+
+        <input
+          type="email"
+          name="email"
+          placeholder="zain.sadaqet@gmail.com"
+          required
+          class="input"
+        />
+        <textarea
+          rows="4"
+          cols="50"
+          name="message"
+          placeholder="Write your message here"
+          required
+          maxlength="500"
+          class="input-textarea"
+        ></textarea>
+        <button type="submit" class="contact-button">Get It Touch</button>
       </form>
     </footer>
   </body>

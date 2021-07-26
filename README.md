@@ -49,7 +49,7 @@
   ![screenshot](images/repository-usage-view.png)
 - cd project-name
 - run the index.html file in your favourite browser ( Google Chrome Recommended )
-- In case if you don't have installed Git then you can download it from the link given below:
+- In case if you don't have installed Google Chrome then you can download it from the link given below:
   https://www.google.com/chrome/?brand=CHBD&brand=BNSD&gclid=Cj0KCQjwxdSHBhCdARIsAG6zhlVSZQMe6au8-9f-iIf_kn9aWEShW_wQ0xT5E02lc9jEzHOCdXcHCm8aAgNTEALw_wcB&gclsrc=aw.ds
 
 

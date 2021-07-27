@@ -38,8 +38,21 @@
         <ul class="mobile-header-items">
           <li class="logo"><img src="./images/logo.svg" alt="Logo" /></li>
           <li>
-            <img src="./images/menu-icon.svg" alt="Hamburger Menu Icon" />
+            <img
+              class="hamburger-menu"
+              src="./images/menu-icon.svg"
+              alt="Hamburger Menu Icon"
+            />
           </li>
+        </ul>
+      </nav>
+      <!-- Mobile Menu -->
+      <nav class="mobile-menu d-none">
+        <img src="./images/cancel.svg" alt="cross-icon" class="cross" />
+        <ul class="mobile-menu-items">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <!-- Desktop Version -->
@@ -90,7 +103,7 @@
       </section>
     </main>
 
-    <section class="container grid-container">
+    <section id="portfolio" class="container grid-container">
       <ul class="work-card">
         <li class="work-card-image">
           <img src="./images/portfolio-1.png" alt="portfolio-1" />
@@ -314,5 +327,6 @@
         <button type="submit" class="contact-button">Get It Touch</button>
       </form>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

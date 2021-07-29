@@ -14,3 +14,19 @@ crossBtn.addEventListener('click', () => {
 mobileMenuItems.addEventListener('click', () => {
   mobileMenu.classList.toggle('d-block');
 });
+
+// > Local Storage (it only works or stores on your current opened web page)
+// 1. create a JS Object
+// 2. JSON.stringify(object)
+// 3. localStorage.setItem('data', JSON.stringify(obj));  // Set Data
+// 4. localStorage.getItem('data'); // Get Data
+// 5. localStorage.removeItem('data'); // Remove Data
+// 6. localStorage.clear() // clear everything in localStorage
+
+// > Session Storage (If you close your browser and open it back, session storage will be empty
+// 1. create a JS Object
+// 2. JSON.stringify(object)
+// 3. localStorage.setItem('data', JSON.stringify(obj));  // Set Data
+// 4. localStorage.getItem('data'); // Get Data
+// 5. localStorage.removeItem('data'); // Remove Data
+// 6. localStorage.clear() // clear everything in localStorage

@@ -95,7 +95,7 @@ body {
 .hero-section,
 .about-section {
   background-color: white;
-  background-image: url("./images/hero-background-image.svg");
+  background-image: url('./images/hero-background-image.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -120,7 +120,7 @@ body {
   border-top-left-radius: 15%;
   min-height: 70vh;
   background-color: #6070ff;
-  background-image: url("./images/hero-background-image.svg");
+  background-image: url('./images/hero-background-image.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -330,6 +330,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
+  display: inline;
 }
 
 .work-card-button,
@@ -412,6 +413,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 @media (min-width: 762px) {

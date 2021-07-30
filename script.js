@@ -15,18 +15,30 @@ mobileMenuItems.addEventListener('click', () => {
   mobileMenu.classList.toggle('d-block');
 });
 
-// > Local Storage (it only works or stores on your current opened web page)
-// 1. create a JS Object
-// 2. JSON.stringify(object)
-// 3. localStorage.setItem('data', JSON.stringify(obj));  // Set Data
-// 4. localStorage.getItem('data'); // Get Data
-// 5. localStorage.removeItem('data'); // Remove Data
-// 6. localStorage.clear() // clear everything in localStorage
+const storeName = document.querySelector('input[type=text]');
+const storeEmail = document.querySelector('input[type=email]');
+const storeMessage = document.querySelector('.input-textarea');
+const userDetails = {};
 
-// > Session Storage (If you close your browser and open it back, session storage will be empty
-// 1. create a JS Object
-// 2. JSON.stringify(object)
-// 3. localStorage.setItem('data', JSON.stringify(obj));  // Set Data
-// 4. localStorage.getItem('data'); // Get Data
-// 5. localStorage.removeItem('data'); // Remove Data
-// 6. localStorage.clear() // clear everything in localStorage
+(() => {
+  const storedUserDetails = JSON.parse(localStorage.getItem('userDetails'));
+  const { name, email, message } = storedUserDetails;
+  storeName.value = name ? name : '';
+  storeEmail.value = email ? email : '';
+  storeMessage.value = message ? message : '';
+})();
+
+storeName.addEventListener('input', (e) => {
+  userDetails.name = e.target.value;
+  localStorage.setItem('userDetails', JSON.stringify(userDetails));
+});
+
+storeEmail.addEventListener('input', (e) => {
+  userDetails.email = e.target.value;
+  localStorage.setItem('userDetails', JSON.stringify(userDetails));
+});
+
+storeMessage.addEventListener('input', (e) => {
+  userDetails.message = e.target.value;
+  localStorage.setItem('userDetails', JSON.stringify(userDetails));
+});

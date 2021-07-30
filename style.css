@@ -95,7 +95,7 @@ body {
 .hero-section,
 .about-section {
   background-color: white;
-  background-image: url("./images/hero-background-image.svg");
+  background-image: url('./images/hero-background-image.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -120,7 +120,7 @@ body {
   border-top-left-radius: 15%;
   min-height: 70vh;
   background-color: #6070ff;
-  background-image: url("./images/hero-background-image.svg");
+  background-image: url('./images/hero-background-image.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -189,7 +189,7 @@ body {
   vertical-align: top;
   padding: 15px 16px;
   margin-bottom: 22px;
-  color: #b3bac5;
+  color: #6b6b6b;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;

@@ -14,3 +14,31 @@ crossBtn.addEventListener('click', () => {
 mobileMenuItems.addEventListener('click', () => {
   mobileMenu.classList.toggle('d-block');
 });
+
+const storeName = document.querySelector('input[type=text]');
+const storeEmail = document.querySelector('input[type=email]');
+const storeMessage = document.querySelector('.input-textarea');
+const userDetails = {};
+
+(() => {
+  const storedUserDetails = JSON.parse(localStorage.getItem('userDetails'));
+  const { name, email, message } = storedUserDetails;
+  storeName.value = name;
+  storeEmail.value = email;
+  storeMessage.value = message;
+})();
+
+storeName.addEventListener('input', (e) => {
+  userDetails.name = e.target.value;
+  localStorage.setItem('userDetails', JSON.stringify(userDetails));
+});
+
+storeEmail.addEventListener('input', (e) => {
+  userDetails.email = e.target.value;
+  localStorage.setItem('userDetails', JSON.stringify(userDetails));
+});
+
+storeMessage.addEventListener('input', (e) => {
+  userDetails.message = e.target.value;
+  localStorage.setItem('userDetails', JSON.stringify(userDetails));
+});

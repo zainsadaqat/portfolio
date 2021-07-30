@@ -23,9 +23,9 @@ const userDetails = {};
 (() => {
   const storedUserDetails = JSON.parse(localStorage.getItem('userDetails'));
   const { name, email, message } = storedUserDetails;
-  storeName.value = name ? name : '';
-  storeEmail.value = email ? email : '';
-  storeMessage.value = message ? message : '';
+  storeName.value = name;
+  storeEmail.value = email;
+  storeMessage.value = message;
 })();
 
 storeName.addEventListener('input', (e) => {

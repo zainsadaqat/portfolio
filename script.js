@@ -15,6 +15,10 @@ mobileMenuItems.addEventListener('click', () => {
   mobileMenu.classList.toggle('d-block');
 });
 
+const form = document.querySelector('.form');
+const validateEmail = document.querySelector('input[type=email]');
+const errorMessagesContainer = document.querySelector('.error-messages');
+
 const showErrors = (errors) => {
   errors.forEach((error) => {
     const li = document.createElement('li');
@@ -28,9 +32,6 @@ const showErrors = (errors) => {
   errorMessagesContainer.classList.toggle('d-none');
 };
 
-const form = document.querySelector('.form');
-const validateEmail = document.querySelector('input[type=email]');
-const errorMessagesContainer = document.querySelector('.error-messages');
 form.addEventListener('submit', (e) => {
   const errorMessages = [];
   if (validateEmail.value !== validateEmail.value.toLowerCase()) {

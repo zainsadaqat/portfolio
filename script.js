@@ -149,7 +149,7 @@ projectDetails.forEach((project) => {
 
   const langs = [lang1, lang2, lang3];
 
-  project.technologies.map((tech, index) => {
+  project.technologies.forEach((tech, index) => {
     langs[index].innerText = tech;
   });
 

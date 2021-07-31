@@ -15,7 +15,8 @@
 > Additional description about the project and its features.
 
 ## Live Demo
-> https://zainsadaqat.github.io/portfolio/
+
+> [Demo Link:](https://zainsadaqat.github.io/portfolio/)
 
 ## Built With
 
@@ -52,7 +53,6 @@
 - In case if you don't have installed Google Chrome then you can download it from the link given below:
   https://www.google.com/chrome/?brand=CHBD&brand=BNSD&gclid=Cj0KCQjwxdSHBhCdARIsAG6zhlVSZQMe6au8-9f-iIf_kn9aWEShW_wQ0xT5E02lc9jEzHOCdXcHCm8aAgNTEALw_wcB&gclsrc=aw.ds
 
-
 ### Usage
 
 - Project will be open in Desktop view but if you want to check in the mobile view then press
@@ -66,7 +66,7 @@
 - GitHub: [@zainsadaqat](https://github.com/zainsadaqat)
 - Twitter: [@zain_sadaqat](https://twitter.com/zain_sadaqat)
 - LinkedIn: [@zainsadaqat](https://linkedin.com/in/zainsadaqat)
-- Instagram: [@zain__sadaqat](https://instagram.com/zain__sadaqat)
+- Instagram: [@zain\_\_sadaqat](https://instagram.com/zain__sadaqat)
 
 ## 🤝 Contributing
 

@@ -337,6 +337,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
+  display: inline;
 }
 
 .work-card-button,
@@ -351,6 +352,7 @@ body {
   border: 1px solid #6070ff;
   border-radius: 8px;
   transition: background-color 500ms, color 500ms;
+  margin-right: 10px;
 }
 
 .about-card-button {
@@ -421,6 +423,37 @@ body {
   align-items: center;
 }
 
+.overlay {
+  background-color: #c1c7d0;
+}
+
+.popup-container {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  outline: none;
+  border-radius: 16px;
+  padding: 16px;
+  padding-bottom: 40px;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.popup-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.popup-image {
+  max-width: 60%;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+
 @media (min-width: 762px) {
   .mobile-header {
     display: none;
@@ -433,7 +466,7 @@ body {
 
   .desktop-header {
     background-color: white;
-    padding: 26px 24px;
+    padding: 18px 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -539,5 +572,9 @@ body {
   .contact-paragraph {
     max-width: 580px;
     color: #fff;
+  }
+
+  .popup-container {
+    flex-direction: column;
   }
 }

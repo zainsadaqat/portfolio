@@ -570,14 +570,4 @@ body {
   .popup-container {
     flex-direction: column;
   }
-  /*
-  .popup-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: space-between;
-  }
-
-  .work-card-content .popup-details {
-    display: flex;
-  } */
 }

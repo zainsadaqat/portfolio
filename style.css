@@ -189,10 +189,17 @@ body {
   vertical-align: top;
   padding: 15px 16px;
   margin-bottom: 22px;
-  color: #b3bac5;
+  color: #6b6b6b;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+}
+
+.input:focus,
+.input-textarea:focus {
+  outline: none;
+  border: 2px solid #c1c6fa;
+  border-radius: 8px;
 }
 
 .contact-button {

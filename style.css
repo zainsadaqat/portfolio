@@ -345,6 +345,7 @@ body {
   border: 1px solid #6070ff;
   border-radius: 8px;
   transition: background-color 500ms, color 500ms;
+  margin-right: 10px;
 }
 
 .about-card-button {
@@ -415,21 +416,35 @@ body {
   align-items: center;
 }
 
-.modal {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.overlay {
+  background-color: #c1c7d0;
 }
 
-.overlay {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.75);
+.popup-container {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  outline: none;
+  border-radius: 16px;
+  padding: 16px;
+  padding-bottom: 40px;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.popup-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.popup-image {
+  max-width: 60%;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 762px) {
@@ -444,7 +459,7 @@ body {
 
   .desktop-header {
     background-color: white;
-    padding: 26px 24px;
+    padding: 18px 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -551,4 +566,18 @@ body {
     max-width: 580px;
     color: #fff;
   }
+
+  .popup-container {
+    flex-direction: column;
+  }
+  /*
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+
+  .work-card-content .popup-details {
+    display: flex;
+  } */
 }

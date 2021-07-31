@@ -1,3 +1,4 @@
+const body = document.querySelector('body');
 const hamburgerBtn = document.querySelector('.hamburger-menu');
 const crossBtn = document.querySelector('.cross');
 const mobileMenu = document.querySelector('.mobile-menu');
@@ -15,10 +16,8 @@ mobileMenuItems.addEventListener('click', () => {
   mobileMenu.classList.toggle('d-block');
 });
 
-// Portfolio Section
 const portfolioSection = document.querySelector('#portfolio');
 
-// portfolio project-details object
 const projectDetails = [
   {
     id: 1,
@@ -79,11 +78,9 @@ const projectDetails = [
 ];
 
 projectDetails.forEach((project) => {
-  // work-card container
   const workCard = document.createElement('ul');
   workCard.classList.add('work-card');
 
-  // work-card-image child
   const workCardImage = document.createElement('li');
   workCardImage.classList.add('work-card-image');
   const featuredImage = document.createElement('img');
@@ -91,24 +88,19 @@ projectDetails.forEach((project) => {
   featuredImage.setAttribute('alt', project.imgAlt);
   workCardImage.append(featuredImage);
 
-  // work-card-content child
   const workCardContent = document.createElement('li');
   workCardContent.classList.add('work-card-content');
 
-  //    work-card-heading grand-child
   const workCardHeading = document.createElement('h2');
   workCardHeading.classList.add('work-card-heading');
   workCardHeading.innerText = project.name;
 
-  //    work-card-history grand-child
   const workCardHistory = document.createElement('section');
   workCardHistory.classList.add('work-card-history');
 
-  //      work-card-profession grand-grand-child
   const workCardProfession = document.createElement('ul');
   workCardProfession.classList.add('work-card-profession');
 
-  //        work-card-profession children
   const listItem1 = document.createElement('li');
   const caption = document.createElement('h3');
   caption.classList.add('work-card-caption');
@@ -133,7 +125,6 @@ projectDetails.forEach((project) => {
   const listItem5 = document.createElement('li');
   listItem5.innerText = '2015';
 
-  // Add work-card-profession's children
   workCardProfession.append(listItem1);
   workCardProfession.append(listItem2);
   workCardProfession.append(listItem3);
@@ -168,26 +159,39 @@ projectDetails.forEach((project) => {
 
   const seeProjectBtn = document.createElement('a');
   seeProjectBtn.classList.add('work-card-button');
-  seeProjectBtn.setAttribute('href', '#');
-  seeProjectBtn.setAttribute('onclick', 'modal()');
+  seeProjectBtn.setAttribute('href', '#popup-window');
   seeProjectBtn.innerText = 'See Project';
 
-  // Add work-card-heading and work-card-history grand-children
+  const pupupHeading = document.querySelector('h2.work-card-heading');
+  const popupImage = document.querySelector('.popup-image img');
+  const liveCodeLink = document.querySelector('#live-link');
+  const sourceCodeLink = document.querySelector('#source-link');
+
+  const popupContainer = document.querySelector('ul.popup-container');
+  seeProjectBtn.addEventListener('click', () => {
+    pupupHeading.innerText = project.name;
+    popupImage.setAttribute('src', project.featuredImage);
+    liveCodeLink.setAttribute('href', project.liveLink);
+    sourceCodeLink.setAttribute('href', project.sourceCode);
+    popupContainer.classList.remove('d-none');
+    body.classList.add('overlay');
+  });
+
+  const cancelBtn = document.querySelector('.cancel-button');
+
+  cancelBtn.addEventListener('click', () => {
+    popupContainer.classList.add('d-none');
+    body.classList.remove('overlay');
+  });
+
   workCardContent.append(workCardHeading);
   workCardContent.append(workCardHistory);
   workCardContent.append(workCardParagraph);
   workCardContent.append(languageSection);
   workCardContent.append(seeProjectBtn);
 
-  const model = document.createElement('section');
-  // model.classList.add('d-none');
-  model.append(workCardImage);
-  model.append(workCardContent);
-
-  // Add work-card-image and work-card-content children
   workCard.append(workCardImage);
   workCard.append(workCardContent);
-  // workCard.append(model);
 
   portfolioSection.append(workCard);
 });

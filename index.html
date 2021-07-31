@@ -104,31 +104,42 @@
     </main>
 
     <section id="portfolio" class="container grid-container">
-      <ul class="work-card">
-        <li class="work-card-image">
-          <img src="./images/portfolio-4.png" alt="portfolio-4" />
+      <ul class="popup-container d-none" id="popup-window">
+        <ul class="popup-header">
+          <li>
+            <h2 class="work-card-heading"></h2>
+            <section class="work-card-history">
+              <ul class="work-card-profession">
+                <li><h3 class="work-card-caption">CANOPY</h3></li>
+                <li><img src="./images/counter.svg" alt="circle" /></li>
+                <li class="role">Back End Dev</li>
+                <li><img src="./images/counter.svg" alt="circle" /></li>
+                <li>2015</li>
+              </ul>
+            </section>
+          </li>
+          <li class="cancel-button">
+            <img src="./images/cancel-grey.svg" />
+          </li>
+        </ul>
+        <li class="popup-image">
+          <img src="" alt="" />
         </li>
-        <li class="work-card-content">
-          <h2 class="work-card-heading">Uber Navigation</h2>
-          <section class="work-card-history">
-            <ul class="work-card-profession">
-              <li><h3 class="work-card-caption">CANOPY</h3></li>
-              <li><img src="./images/counter.svg" alt="circle" /></li>
-              <li class="role">Back End Dev</li>
-              <li><img src="./images/counter.svg" alt="circle" /></li>
-              <li>2015</li>
-            </ul>
-          </section>
-          <p class="work-card-paragraph">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
+        <li class="work-card-content popup-details">
+          <p class="work-card-paragraph"></p>
           <div class="languages-section">
             <span class="programming-language">HTML</span>
             <span class="programming-language">CSS</span>
             <span class="programming-language">JAVASCRIPT</span>
           </div>
-          <a href="#" class="work-card-button">See Project</a>
+          <div class="buttons-container">
+            <a href="#" class="work-card-button" id="live-link"
+              >See Live <img src="./images/Icon - Export.svg"
+            /></a>
+            <a href="#" class="work-card-button" id="source-link"
+              >See Source <img src="./images/github in button.svg"
+            /></a>
+          </div>
         </li>
       </ul>
     </section>

@@ -488,6 +488,10 @@ body {
     color: #344563;
   }
 
+  .desktop-header-items > li > a:hover {
+    color: #919191;
+  }
+
   .hero-section {
     background-image: url(./images/desktop-background.svg);
     background-size: contain;

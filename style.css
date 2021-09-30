@@ -40,6 +40,7 @@ body {
 }
 
 .logo {
+  width: 160px;
   transition: transform 500ms;
   animation: rotate-logo 1s cubic-bezier(0.18, -0.51, 0.7, 1.75);
 }

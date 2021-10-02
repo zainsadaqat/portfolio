@@ -40,6 +40,7 @@ body {
 }
 
 .logo {
+  width: 160px;
   transition: transform 500ms;
   animation: rotate-logo 1s cubic-bezier(0.18, -0.51, 0.7, 1.75);
 }
@@ -466,7 +467,7 @@ body {
 
   .desktop-header {
     background-color: white;
-    padding: 18px 24px;
+    padding: 2.5em 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -486,6 +487,10 @@ body {
     text-align: center;
     margin-left: 32px;
     color: #344563;
+  }
+
+  .desktop-header-items > li > a:hover {
+    color: #919191;
   }
 
   .hero-section {

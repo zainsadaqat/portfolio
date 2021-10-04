@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> Hey, My name is Zain, Thanks for checking out my Portfolio.
+> Hello, my name is Zain Sadaqat and this is my portfolio's repository. You can find live link of my portfolio right below to this description.
 
 ## Desktop View
 

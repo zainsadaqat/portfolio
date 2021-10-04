@@ -29,6 +29,9 @@
   - Transitions
   - Animations
   - Keyframes
+- JavaScript
+  - DOM Manipulation
+  - Dynamically Developed Sections
 
 ## Getting Started
 

@@ -13,7 +13,6 @@ Hello, my name is Zain Sadaqat and this is my portfolio's repository. Portfolio 
 
 ![screenshot](images/portfolios-mobile-view.png)
 
-> Additional description about the project and its features.
 
 ## Live Demo
 

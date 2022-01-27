@@ -2,7 +2,8 @@
 
 # Portfolio
 
-> Hello, my name is Zain Sadaqat and this is my portfolio's repository. You can find the live link to my portfolio right below to this description.
+Hello, my name is Zain Sadaqat and this is my portfolio's repository. Portfolio has been created with HTML, CSS, JavaScript. You can find the live link to my portfolio right below to this description.
+
 
 ## Desktop View
 
